@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        * {
+            box-sizing:border-box;
+            
+        }
+        body {
+            margin: 0;
+        }
+        header {
+            min-height: 60vh;
+            background-color: #aaa;
+        }
+        .top-bar {
+            background-color: #000;
+            color: #fff;
+        }
+        .container {
+            max-width: 1320px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .container-fluid {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .contact-list {
+            padding: 15px;
+            /* background-color: darkmagenta; */
+            width: 50%;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        .social-icons {
+            background-color: darkslategrey;
+            width: 50%;
+            padding: 15px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: end;
+            border-radius: 30px 0 0 30px;
+        }
+        .list-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        @media (max-width: 1199px) {
+            .container {
+                max-width: 1024px;
+            }
+        }
+        @media (max-width: 991px) {
+            .social-icons, .contact-list {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+        @media (max-width: 767px) {
+            
+        }
+        @media (max-width: 575px) {
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-list">
+                    <div class="list-item email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>info@ffdfdfd.com</span>
+                    </div>
+                    <div class="list-item phone">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span dir="ltr">+9665214555555</span>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <div class="icon">
+                        <a href="#" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="#" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="#" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="#" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="aboutus">
+        <div class="container">
+            
+        </div>
+    </section>
+</body>
+
+</html>
